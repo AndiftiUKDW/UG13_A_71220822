@@ -117,5 +117,5 @@ a.back(40)
 a.setheading(90)
 a.circle(20,180)
 a.end_fill()
-
+window.bgpic("nahidasus.png")
 window.exitonclick()
