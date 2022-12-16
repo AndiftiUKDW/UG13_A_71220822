@@ -4,6 +4,7 @@ a = turtle.Turtle()
 def angka2(ulang):
     for i in range(ulang):
         a.pendown()
+        a.color('blue')
         a.forward(50)
         a.back(50)
         a.left(90)
@@ -25,6 +26,7 @@ a.penup()
 a.setx(-100)
 #buat huruf A
 a.pendown()
+a.color('Red')
 a.left(60)
 a.forward(100)
 a.right(120)
@@ -41,6 +43,7 @@ a.penup()
 a.forward(30)
 #buat angaka 8
 a.pendown()
+a.color('Green')
 for i in range(2):
     a.forward(50)
     a.left(90)
@@ -58,10 +61,15 @@ angka2(2)
 #buat huruf P
 a.left(90)
 a.pendown()
+a.color('brown')
 a.forward(87)
 for i in range(3):
     a.right(90)
     a.forward(40)
 a.sety(0)
+a.setheading(0)
+a.penup()
+a.forward(80)
+
 
 window.exitonclick()
